@@ -18,6 +18,7 @@ import java.util.List;
 import java.util.Map;
 @RestController
 @RequestMapping("/api")
+// ok
 public class AccountController {
     private Map<String, String> otpStore = new HashMap<>(); // Store OTPs
     @Autowired
